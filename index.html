@@ -1,21 +1,37 @@
-<script src="script/index.js"></script>
-<button id="right" style="
-font-size: 60pt;
-padding: 30pt;
-">Right</button>
-<button id="left" style="
-font-size: 60pt;
-padding: 30pt;
-">Left</button>
-<div style="
-    width: 288px ;
+<div id="canvas" style=" 
+    background-color: white;
+">
+    <div id="hero" style="
+    width: 288px;
     height: 288px;
     overflow: hidden;">
-    <img id="hero-img" style="
-    width:  1750px;
-    height: 260px;
-    position: relative;
-    transition: left 0.3s ease;
-    transform: scale(1,1);
-    " src="img/player3/Attack_3.png" />
+        <img id="hero-idle" style="
+        width: 1730px;
+        height: 260px;
+        position: relative;
+        left: 0px; 
+        transform: scale(1,1);
+        " src="img/player3/Idle.png" />
+    </div>
+      
+    <img src="img/разные ярлыки/FullScreen.png" id="fsBtn" style="
+        width: 30px;
+        height: 30px;
+        position: obsolute;
+        " />
+        <div id="img-block"style="
+            position: relative;
+            width: 288px ;
+            height: 288px;
+            overflow: hidden;">
+                <img id="hero-img" style="
+                width:  2350px;
+                height: 260px;
+                position: relative;
+                left: 0px;
+                transform: scale(1,1);
+                " src="img/player3/Run.png" />
+        </div>
+    </div>
 </div>
+<script src="script.js"></script>
