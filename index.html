@@ -1,37 +1,30 @@
 <div id="canvas" style=" 
     background-color: white;
 ">
-    <div id="hero" style="
+    <div id="img-block" style="
     width: 288px;
     height: 288px;
-    overflow: hidden;">
-        <img id="hero-idle" style="
-        width: 1730px;
-        height: 260px;
+    overflow: hidden;
+    position: relative;
+    top: 300px;
+    left: 0px;
+    ">
+        <img id="hero-img" style="
+        width: 2432px;
+        height: 4256px;
         position: relative;
-        left: 0px; 
+        top: 0px;
+        left: 288px;
         transform: scale(1,1);
-        " src="img/player3/Idle.png" />
+        " src="img/player3/Hero.png" />
     </div>
       
     <img src="img/разные ярлыки/FullScreen.png" id="fsBtn" style="
         width: 30px;
         height: 30px;
-        position: obsolute;
+        position: fixed;
+        top: 20px;
         " />
-        <div id="img-block"style="
-            position: relative;
-            width: 288px ;
-            height: 288px;
-            overflow: hidden;">
-                <img id="hero-img" style="
-                width:  2350px;
-                height: 260px;
-                position: relative;
-                left: 0px;
-                transform: scale(1,1);
-                " src="img/player3/Run.png" />
-        </div>
     </div>
 </div>
 <script src="script.js"></script>
